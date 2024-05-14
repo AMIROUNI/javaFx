@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="601.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.college.controllers.DepartmentController">
+   <children>
+      <ImageView fitHeight="611.0" fitWidth="911.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutY="132.0" prefHeight="200.0" prefWidth="347.0" style="-fx-background-color: black;">
+         <children>
+            <TextField fx:id="tfNameDepartment" layoutX="153.0" layoutY="33.0" />
+            <TextField fx:id="tfLocation" layoutX="153.0" layoutY="91.0" />
+            <Label layoutX="14.0" layoutY="38.0" text="nameDepartment " textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="71.0" layoutY="96.0" text="location" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnUpdate" layoutX="185.0" layoutY="142.0" mnemonicParsing="false" onAction="#update" style="-fx-background-color: green;" text="Update" />
+            <Button fx:id="btnDelete" layoutX="270.0" layoutY="142.0" mnemonicParsing="false" onAction="#Delete" style="-fx-background-color: red;" text="Delete" />
+            <Button fx:id="btnAddDepartemnt" layoutX="14.0" layoutY="142.0" mnemonicParsing="false" onAction="#addDepartment" style="-fx-background-color: green;" text="btn Add Departemnt" />
+         </children>
+      </AnchorPane>
+      <TextArea fx:id="alertAddDepartment" layoutX="7.0" layoutY="87.0" prefHeight="38.0" prefWidth="332.0" />
+      <Label layoutX="84.0" layoutY="54.0" prefHeight="21.0" prefWidth="148.0" text="add Department" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tabledep" layoutX="392.0" layoutY="130.0" prefHeight="405.0" prefWidth="483.0" style="-fx-background-color: black;">
+         <columns>
+            <TableColumn fx:id="id" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="namedep" prefWidth="194.0" text="Name Department" />
+            <TableColumn fx:id="locationColumn" prefWidth="213.0" text="Location" /> <!-- Changed fx:id to locationColumn -->
+         </columns>
+      </TableView>
+      <HBox layoutX="7.0" prefHeight="54.0" prefWidth="536.0">
+         <children>
+            <Button fx:id="btnGoToStudent" mnemonicParsing="false" onAction="#GoToStudnt" prefHeight="31.0" prefWidth="120.0" style="-fx-background-color: black;" text="Student" textFill="WHITE" />
+            <Button fx:id="btnGoToTeacher" mnemonicParsing="false" onAction="#GoToTeacher" prefHeight="31.0" prefWidth="142.0" style="-fx-background-color: black;" text="Teacher" textFill="WHITE" />
+            <Button fx:id="btnGoToCourse" mnemonicParsing="false" onAction="#GoToCourse" prefHeight="31.0" prefWidth="147.0" style="-fx-background-color: black;" text="Course" textFill="WHITE" />
+            <Button fx:id="btnGoToLogin" mnemonicParsing="false" onAction="#GoToLogin" prefHeight="31.0" prefWidth="134.0" style="-fx-background-color: black;" text="LogOut" textFill="#ffd0d0" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
