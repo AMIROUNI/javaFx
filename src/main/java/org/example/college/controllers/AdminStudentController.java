@@ -147,6 +147,7 @@ public class AdminStudentController implements Initializable {
             Student student = new Student();
             ArrayList<Student> dataList = student.getAll();
             ObservableList<Student> observabletable = FXCollections.observableArrayList(dataList);
+            System.out.println(observabletable);
 
             columnName.setCellValueFactory(new PropertyValueFactory<>("name"));
             columnPrename.setCellValueFactory(new PropertyValueFactory<>("prename"));

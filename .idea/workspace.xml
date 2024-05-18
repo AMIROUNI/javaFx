@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="685958fb-674c-40b6-afbf-a02c7a1fa696" name="Changes" comment="this 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/college/controllers/AdminStudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/college/controllers/AdminStudentController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/amiro/Desktop/javaPrejct/untitled/src/college/src/main/java/org/example/college&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/amiro/Desktop/college/src/main/resources/org/example/college&quot;,
@@ -115,7 +116,8 @@
       <workItem from="1715452935051" duration="7415000" />
       <workItem from="1715495119650" duration="13024000" />
       <workItem from="1715599718279" duration="2643000" />
-      <workItem from="1715675284061" duration="4567000" />
+      <workItem from="1715675284061" duration="6651000" />
+      <workItem from="1715922078677" duration="274000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
